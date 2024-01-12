@@ -3,7 +3,7 @@ console.log("pets");
 
 var pets = 3;
 
-var petFood = pets * 2;
+pets *= 3;
 
 var pet = prompt("What is your favorite pet: ");
 
