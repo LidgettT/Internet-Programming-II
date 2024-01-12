@@ -5,6 +5,8 @@ var pets = 3;
 
 pets *= 3;
 
+console.log("The pets variable os equal to: " + pets);
+
 var pet = prompt("What is your favorite pet: ");
 
-console.log("The pet variable is equal to: " + pet);
+console.log("The users favorite pet is a: " + pet);
