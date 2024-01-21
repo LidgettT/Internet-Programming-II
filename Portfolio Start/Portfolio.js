@@ -16,5 +16,3 @@ for ( var i = 0; i <= 5; i++ ) {
     sum += i;
 }
 alert (sum);
-
-if sum = 
