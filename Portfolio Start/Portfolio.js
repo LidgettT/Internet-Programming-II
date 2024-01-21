@@ -11,8 +11,10 @@ var pet = prompt("What is your favorite pet: ");
 
 console.log("The users favorite pet is a: " + pet);
 
-let sum = 0;
+let sum = 1;
 for ( var i = 0; i <= 5; i++ ) {
     sum += i;
 }
 alert (sum);
+
+if sum = 
