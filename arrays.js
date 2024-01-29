@@ -7,7 +7,7 @@ food[3] = "peach";
 
 console.log(food);
 
-food[0][0] = 3;
+food[0][0] = 3*4;
 food[0][1] = 6;
 food[0][2] = 10;
 
