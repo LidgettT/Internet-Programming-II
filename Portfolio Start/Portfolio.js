@@ -17,3 +17,4 @@ for ( var i = 0; i <= 5; i++ ) {
 }
 alert (sum);
 console.log (sum)
+
