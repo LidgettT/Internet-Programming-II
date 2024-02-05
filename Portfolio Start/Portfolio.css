@@ -1,7 +1,15 @@
 /* Trayven Lidgett 2/4/2024 */
 
+/* Body */
+body {
+    background-color: blanchedalmond;
+}
+
 /* Div */
 div {
-
+    background-color: aquamarine;
+    border-color: bisque;
+    width: 80%;
+    align-items: center;
 
 }
