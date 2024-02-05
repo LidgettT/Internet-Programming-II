@@ -16,3 +16,4 @@ for ( var i = 0; i <= 5; i++ ) {
     sum += i;
 }
 alert (sum);
+console.log (sum)
