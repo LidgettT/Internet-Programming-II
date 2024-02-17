@@ -7,4 +7,5 @@ while (cake == true)
     {
         break;
     }
+    console.log(input);
 }
