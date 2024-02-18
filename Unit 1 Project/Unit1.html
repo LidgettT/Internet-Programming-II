@@ -8,7 +8,14 @@
             <p>Click the button for the date</p>
             <button id="test">Show me the date</button>
             <p id="Date"></p>
+            <script>
+                document.getElementById("test").addEventListener("click", displayDate);
 
+                function displayDate() 
+                {
+                    documnet.getElementById("Date").innerHTML = Date();
+                }
+            </script>
         </div>
     </body>
 </html>
