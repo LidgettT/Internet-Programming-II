@@ -10,16 +10,19 @@ var modNumber = function (number)
 
 while (payment == true)
 {
-    var input= prompt("Whats your car payment or type 0 to stop");
+    var input= prompt("Whats your car payments every month or type 0 to stop");
     if ( input == 0)
     {
         break;
     }
-
-    if (input > 0)
-    {
-        input = input * 12 + " is how much you pay a year in car payments.";
-    }
     
-    console.log(input);
+    amount[amount.length] = input;
+
+    console.log(amount);
+
+    for (var i in amount)
+    {
+        amount[i] = modNumber(amount[i]);
+    }
+    console.log(amount);
 }
