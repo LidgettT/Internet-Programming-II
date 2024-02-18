@@ -36,5 +36,5 @@ while (payment == true)
 
     function aquamarine()
     {
-    div.classList.toggle("aquamarine");
+    div[1].classList.toggle("aquamarine");
     }
