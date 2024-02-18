@@ -35,5 +35,5 @@ while (payment == true)
     console.log(div);
 
     function toggleWhite() {
-    div[1].classList.toggle("whitetext");
+        fiv[1].classList.toggle("whitetext");
     }
