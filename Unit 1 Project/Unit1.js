@@ -15,6 +15,11 @@ while (payment == true)
     {
         break;
     }
+
+    if (input > 0)
+    {
+        input = input * 12;
+    }
     
     console.log(input);
 }
