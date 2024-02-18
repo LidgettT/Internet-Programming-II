@@ -35,10 +35,5 @@ var button = document.querySelector("button");
 
 button.addEventListener("click", () => 
 {
-    document.getElementById("myBtn").addEventListener("click", displayDate);
-
-    function displayDate() 
-    {
-        document.getElementById("test").innerHTML = Date();
-    }
+        document.click("Show me the date") = Date;
 });
