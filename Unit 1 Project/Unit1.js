@@ -29,7 +29,7 @@ while (payment == true)
     }
     console.log(amount + " is the amount you pay for each vehicle every year.");
 
-    document.getElementById("Show me the date").addEventListener("click", displayDate);
+    document.getElementById("test").addEventListener("click", displayDate);
 
     function displayDate() 
     {
