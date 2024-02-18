@@ -17,7 +17,7 @@ while (payment == true)
     }
     
     amount[amount.length] = input;
-
+}
     console.log(amount);
 
     for (var i in amount)
@@ -25,4 +25,3 @@ while (payment == true)
         amount[i] = modNumber(amount[i]);
     }
     console.log(amount);
-}
