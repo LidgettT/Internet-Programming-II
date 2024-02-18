@@ -18,7 +18,7 @@ while (payment == true)
 
     if (input > 0)
     {
-        input = input * 12;
+        input = input * 12 + " is how much you pay a year in car payments.";
     }
     
     console.log(input);
