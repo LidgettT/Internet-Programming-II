@@ -24,4 +24,4 @@ while (payment == true)
     {
         amount[i] = modNumber(amount[i]);
     }
-    console.log(amount);
+    console.log(amount + " is the amount you pay for this vehicle every year.");
