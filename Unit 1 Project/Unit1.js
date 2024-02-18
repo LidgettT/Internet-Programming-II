@@ -34,7 +34,6 @@ while (payment == true)
 
     console.log(div);
 
-    function toggleAquamarine()
-    {
-    div[1].classList.toggle("aquamarine");
+    function toggleWhite() {
+    div[1].classList.toggle("whitetext");
     }
