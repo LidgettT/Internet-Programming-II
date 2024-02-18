@@ -2,10 +2,10 @@ var payment = true;
 
 var amount = [];
 
-//4% interest on car payment
+//amount paid per year
 var modNumber = function (number)
 {
-    return number * .04;
+    return number * 12;
 }
 
 while (payment == true)
@@ -15,12 +15,6 @@ while (payment == true)
     {
         break;
     }
-    amount[amount.length] = input;
-
-    console.log(amount);
-
-    for (var i in amount)
-    {
-        amount[i] = modNumber(amount[i]);
-    }
+    
+    console.log(input);
 }
