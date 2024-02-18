@@ -38,3 +38,7 @@ while (payment == true)
     {
     div[1].classList.toggle("aquamarine");
     }
+
+    document.querySelector("button");
+    
+    button.addEventListner("click", aquamarine);
