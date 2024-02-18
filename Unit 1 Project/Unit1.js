@@ -29,11 +29,5 @@ while (payment == true)
     }
     console.log(amount + " is the amount you pay for each vehicle every year.");
 
-    //DOMContent Loader to show date
-    id="date"
-    document.getElementById("test").addEventListener("click", displayDate);
-
-    function displayDate()
-    {
-        documnet.getElementById("date").innerHTML = Date();
-    }
+    //Event Listner Button
+    
