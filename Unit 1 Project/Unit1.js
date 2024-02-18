@@ -30,7 +30,7 @@ while (payment == true)
     console.log(amount + " is the amount you pay for each vehicle every year.");
 
     //Event Listner Button
-    var div = document.querySelector("div");
+    var div = document.querySelectorAll("div");
 
     console.log(div);
 
