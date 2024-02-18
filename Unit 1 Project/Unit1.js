@@ -8,6 +8,7 @@ var modNumber = function (number)
     return number * 12;
 }
 
+//Prompt window
 while (payment == true)
 {
     var input= prompt("Whats your car payments every month or type 0 to stop");
@@ -16,12 +17,21 @@ while (payment == true)
         break;
     }
     
+    //Array displayed in console
     amount[amount.length] = input;
 }
     console.log(amount);
 
+    //Variable amount is modified to equal amount per year
     for (var i in amount)
     {
         amount[i] = modNumber(amount[i]);
     }
-    console.log(amount + " is the amount you pay for this vehicle every year.");
+    console.log(amount + " is the amount you pay for each vehicle every year.");
+
+    document.getElementById("test").addEventListener("click", displayDate);
+
+    function displayDate() 
+    {
+        documnet.getElementById("DateBtn").innerHTML = Date();
+    }
